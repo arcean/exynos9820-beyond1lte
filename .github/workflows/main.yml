@@ -26,9 +26,7 @@ jobs:
         ./build config name=CRUEL-V2-BTA8 \
                 +magisk                   \
                 +nohardening              \
-                +ttl                      \
-                +wireguard                \
-                +cifs
+                +ttl
     - name: Kernel Build
       run: ./build :build
     - name: Create boot.img
